@@ -27,7 +27,7 @@ public class loged_in extends AppCompatActivity {
         else
         {
             //String st=getIntent().getExtras().getString("value");
-            Toast t= Toast.makeText(getApplicationContext(), "helllo" ,Toast.LENGTH_SHORT);
+            Toast t= Toast.makeText(getApplicationContext(), preferences.getUsername() ,Toast.LENGTH_SHORT);
             t.setGravity(Gravity.CENTER,0,0);
             t.show();
         }
